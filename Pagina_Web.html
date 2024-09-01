@@ -1,0 +1,439 @@
+<html>
+<head>
+<title>Pagina Web</title>
+</head>
+<body  background="Fondo.jpg">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria El Buen Cafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #8B4513;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #A0522D;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #8B4513;
+        }
+        footer {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+        }
+        .menu-item {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            background-color: #8B4513;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        form input[type="submit"]:hover {
+            background-color: #A0522D;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gallery img {
+            width: 48%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .review {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .review h4 {
+            margin-bottom: 5px;
+            color: #A0522D;
+        }
+        .social {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .social a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            border-radius: 50%;
+            padding: 10px 15px;
+            background-color: #A0522D;
+        }
+        .social a:hover {
+            background-color: #8B4513;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cafeteria El Buen Cafe</h1>
+        <p>El mejor cafe de la ciudad, desde 1999</p>
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#historia">Nuestra Historia</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#eventos">Eventos</a>
+         <a href="#ubicacion">Ubicacion</a>
+        <a href="#comentario">Comentarios</a>
+         <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="menu">
+            <h2><font size=6>Menu</font></h2>
+             <hr width=100%  size=10>
+
+            
+             <marquee behavior="slide"><b><font color="black"    size=5  face="berlin Sans FB">  Cafes </font></b></marquee>
+            
+            <div class="menu-item">
+                  <ul  type=circle>
+                <h3><li><b>Expresso Americano</b></h3>
+                  </ul>
+                <p>Un clasico americano, cafe negro fuerte.</p>
+                <p><strong>Precio:</strong> Q.50.00</p>
+                <img src="Expresso.jpg"width=350  height=230></img>
+            </div>
+
+            <div class="menu-item">
+                <ul  type=circle>
+                <h3><li><b>Tres leches</b></h3>
+                <p>Una mezcla de cafe y leche.</p>
+                <p><strong>Precio:</strong> Q.60.00</p>
+              <img src="Tleches.jpg"width=280  height=230></img>
+            </div>
+
+             <div class="menu-item">
+               <ul  type=circle>
+                <h3><li><b>Cortado</b></h3>
+               </ul>
+                <p>Una mezcla de espresso y leche.</p>
+                <p><strong>Precio:</strong> Q.40.00</p>
+              <img src="Cortado.jpg"width=350  height=230></img>
+            </div>
+
+             <div class="menu-item">
+                <ul  type=circle>
+                <h3><li><b>White chocolate mocha</b></h3>
+                </ul>
+                <p>Una mezcla de espresso, se combina con salsa de chocolate blanco, leche al vapor y crema batida .</p>
+                <p><strong>Precio:</strong> Q.70.00</p>
+                <img src="White.jpg"width=350  height=230></img>
+            </div>
+
+           <div class="menu-item">
+               <ul  type=circle>
+                <h3><li><b>Latte</b></h3>
+                    </ul>
+                <p>Una mezcla de espresso, mucha leche al vapor y una fina capa final de leche espumosa encima..</p>
+                <p><strong>Precio:</strong> Q.30.00</p>
+               <img src="Latte.jpg"width=350  height=230></img>
+            </div>
+
+              <hr width=100%  size=10>
+              <marquee behavior="alternater"><b><font color="black"    size=5  face="berlin Sans FB">Capuchinos</font></b></marquee>
+            <div class="menu-item">
+               <ul  type=circle>
+                <h3> <li><b>Clasico</b></h3>
+                  </ul>
+                <p>Espresso, leche vaporizada y una capa de espuma de leche.</p>
+                <p><strong>Precio:</strong> Q.30.00</p>
+               <img src="Capclasico.jpg"width=350  height=230></img>
+            </div>
+
+             <div class="menu-item">
+                 <ul  type=circle>
+                <h3><li><b>Frappe</b></h3>
+                </ul>
+                <p> Agua, espresso, azucar, leche y hielo,con nata montada y extras como salsas dulces.</p>
+                <p><strong>Precio:</strong> Q.40.00</p>
+                <img src="Frappe.jpg"width=350  height=230></img>
+            </div>
+
+
+               <hr width=100%  size=10>
+                  <marquee behavior="scroll"><b><font color="black"    size=5  face="berlin Sans FB"> Infusiones</font></b></marquee>
+                <div class="menu-item">
+                  <ul  type=circle>
+                <h3><li><b>Te de Limon<b></h3>
+                <p><strong>Precio:</strong> Q.30.00</p>
+                <img src="Telimon.jpg"width=350  height=230></img>
+            </div>
+
+             <div class="menu-item">
+                 <ul  type=circle>
+                <h3><li><b>Te de Manzanilla<b></h3>
+                <p><strong>Precio:</strong> Q.30.00</p>
+                   <img src="Temanzanilla.jpg"width=350  height=230></img>
+            </div>
+
+
+             <hr width=100%  size=10>
+                <marquee behavior="slide"><b><font color="black"    size=5  face="berlin Sans FB">Postres</font></b></marquee>
+            <div class="menu-item">
+               <ul  type=circle>
+                <h3><li><b>Pastel<b></h3>
+                  </ul>
+                <p>Pastel de zanahoria ,Tiramisu,Selva negra,Fresas con crema,Frutas.</p>
+                <p><strong>Precio:</strong> Q.55.00</p>
+                 <img src="Pastel.jpg"width=350  height=230></img>
+            </div>
+
+               <div class="menu-item">
+                <ul  type=circle>
+                <h3><li><b>Chesecake</b></h3>
+                <p>Chesecake de citricos,Fresa,Chocolate.</p>
+                <p><strong>Precio:</strong> Q.75.00</p>
+               <img src="Chesecakes.jpg"width=320  height=230></img>
+                </div>
+
+            <div class="menu-item">
+                <ul  type=circle>
+                <h3><li><b>Donas</b></h3>
+                <p>Cobertura:Chocolate blanco,negro,de color.</p>
+                <p>Toppings:Chispas de chocolate,anisillo,mania y coco.</p>
+                <p><strong>Precio:</strong> Q.15.00</p>
+               <img src="Donas.jpg"width=320  height=230></img>
+
+
+            </div>
+        </section>
+
+         
+        <table  border   WIDTH="100%" style="background-color:#F9EBEA">
+        <caption align=bottom><font color="black"    size=4  face="berlin Sans FB"> Para  calcular su total  presione clic </font><a href="Calculadora.html"> Total: </a></caption>
+        <tr>
+         <td>Producto</td><td>Precio</td>
+         </tr>
+         </table>
+        
+
+        <section id="historia">
+            <h2><font size=6>Nuestra Historia</font></h2>
+            <p>Fundada en 1999, la Cafeteria El Buen Cafe ha sido un punto de encuentro para los amantes del buen cafe. Nos enorgullecemos de ofrecer una experiencia unica en cada taza, seleccionando los mejores granos de cafe y perfeccionando cada preparacion.</p>
+            <p>Nuestra mision es crear un ambiente calido y acogedor donde nuestros clientes puedan relajarse, socializar y disfrutar de productos de alta calidad. Con mas de 20 años en el negocio, seguimos comprometidos con la excelencia y la satisfaccion de nuestros clientes.</p>
+        </section>
+
+
+        <section id="galeria">
+            <h2><font size=6>Galeria</font></h2>
+            <div class="gallery">
+<style>
+        .contenedor {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contenedor img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img src="Interior.jpg" alt="Imagen 1">
+        <img src="Caferec.jpg" alt="Imagen 2">
+        <img src="Variospostres.jpg" alt="Imagen 3">
+        <img src="Clientes.jpg" alt="Imagen 4">
+    </div>
+</section>
+</body>
+</html>
+                
+            
+        
+           
+
+          <div class="eventos">
+        <section id="calendar" class="event-calendar">
+            <h2><font  size=6 >Calendario de Eventos</font></h2> 
+            <div class="eventos">
+          <table  style="background-color:#F08080"border    cellpadding=15  cellspacing=15>
+<tr>
+<td  bgcolor="white" rowspan=5>  Eventos </td>
+</tr>
+<tr>
+<td  bgcolor="ivory" >23/09/24</td><td bgcolor="ivory"> Barista Jams/Competencia de Arte Latte</td>
+</tr>
+<tr>
+<td   bgcolor="beige" >02/10/2024</td><td  bgcolor="beige">Una Tarde de Metodos de Preparacion</td>
+</tr>
+<tr>
+<td  bgcolor="pink"  >15/12/2024</td><td  bgcolor="pink">Una tarde de Apreciacion del Cafe</td>
+</tr>
+<tr>
+<td  bgcolor="brown">>08/02/2025</td><td bgcolor="brown">Speciality Coffee Expo</td>
+</tr>
+</table>
+
+
+
+        <section id="comentarios">
+            <h2><font  size=6>Comentarios</font></h2>
+            <div class="review">
+                <h4>Maria Perez</h4>
+                <p>“El mejor cafe de la ciudad. El ambiente es acogedor y el personal es muy amable. Recomiendo el capuchino y el pastel de zanahoria.”</p>
+            </div>
+            <div class="review">
+                <h4>Carlos Garcia</h4>
+                <p>“Un lugar perfecto para relajarse y disfrutar de un buen cafe. La calidad del cafe es insuperable, y siempre tienen algo nuevo en el menu.”</p>
+            </div>
+            <div class="review">
+                <h4>Lucía Fernandez</h4>
+                <p>“El Buen Cafe es mi cafeteria favorita. Me encanta venir aqui a trabajar o simplemente a leer un libro mientras disfruto de un espresso.”</p>
+            </div>
+        </section>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones con Mensajes</title>
+    <script>
+        function mostrarMensaje1() {
+            alert("¡Por favor,escribe tu comentario!");
+        }
+
+        function mostrarMensaje2() {
+            alert("¡Estas seguro de borrar el comentario!");
+        }
+    </script>
+</head>
+<body>
+
+    <h1><font color="brown"    size=5>Comentario</font></h1>
+    <button onclick="mostrarMensaje1()">Agregar</button>
+    <button onclick="mostrarMensaje2()">Borrar</button>
+</body>
+</html>
+
+
+    <script>
+        function addTask() {
+            const taskText = document.getElementById('taskInput').value;
+            if (taskText) {
+                const taskList = document.getElementById('taskList');
+                const newTask = document.createElement('div');
+                newTask.classList.add('task');
+                newTask.innerText = taskText;
+                taskList.appendChild(newTask);
+                document.getElementById('taskInput').value = ''; // Limpiar el campo de entrada
+            } else {
+                alert('Por favor,escribe tu comentario.');
+                alert('Deseas borrar el  comentario.');
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+           <section id="ubicacion">
+            <h2><caption align=bottom> <a href="Mapa.html"> <font color="brown"    size=6 >Ubicacion </font></a></caption></h2>
+             
+
+        <section id="contacto">
+            <h2><font size=6>Contacto</font></h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electronico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+                 <input  type="reset" value="Borrar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cafeteria El Buen Cafe. Todos los derechos reservados.</p>
+        <div class="social">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.twitter.com">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+<html>
+<head>
+<title>Ejemplo de alert</title>
+<script type="text/javascript">
+alert("Bienvenidos a mi pagina Web")
+</script>
+</head>
+<body>
+<pre>
+
+
+
+
+   
+
